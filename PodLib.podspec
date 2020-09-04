@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/qian.li/PodLib'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'qian.li' => 'qian.li@zhangmen.com' }
+  s.author           = { 'liqian' => 'liqian_tvd@163.com' }
   s.source           = { :git => 'https://github.com/qian.li/PodLib.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'PodLib/Classes/**/*'
 end
